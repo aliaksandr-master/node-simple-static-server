@@ -1,6 +1,6 @@
 {
 	"name": "node-simple-static-server",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "Simple static server",
 	"main": "simple-static-server.js",
 	"repository": {
