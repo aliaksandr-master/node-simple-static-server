@@ -38,6 +38,10 @@ default: false
 ##cache
 default: 3600
 
+
+##cwd
+default: process.cwd()
+
 ## Usage
 
 ### in module

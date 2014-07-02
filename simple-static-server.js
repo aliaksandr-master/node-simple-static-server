@@ -15,7 +15,8 @@ module.exports = function (options) {
 	// DEFAULT OPTIONS
 	var settings = {
 		port: 9000,  // server port
-		dir: './',   // static dir
+		dir: './',   // static dir,
+		cwd: process.cwd(), // root for static dir
 		logs: true,  // log success
 		loge: true,  // log errors,
 		gzip: false, // gzip response
@@ -33,7 +34,7 @@ module.exports = function (options) {
 		}
 	}
 	// SET ABSOLUTE PATH OF STATIC DIR
-	settings.dirAbs = path.normalize(path.join(process.cwd(), settings.dir));
+	settings.dirAbs = path.normalize(path.join(options.cwd, settings.dir));
 
 
 
