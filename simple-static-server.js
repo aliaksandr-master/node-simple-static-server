@@ -34,7 +34,7 @@ module.exports = function (options) {
 		}
 	}
 	// SET ABSOLUTE PATH OF STATIC DIR
-	settings.dirAbs = path.normalize(path.join(options.cwd, settings.dir));
+	settings.dirAbs = path.normalize(path.join(settings.cwd, settings.dir));
 
 
 
@@ -73,7 +73,7 @@ module.exports = function (options) {
 	server.on('listening', function () {
 		console.log(
 			'Static Server', 'Run'.red,
-			'\nAt: ', 'http://localhost:'.blue, (settings.port + '').cyan,
+			'\nAt: ', 'http://localhost:'.cyan, (settings.port + '').red,
 			'\nStatic Dir:', settings.dirAbs.cyan,
 			'\n________________'.red
 		);
