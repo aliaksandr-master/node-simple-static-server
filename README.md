@@ -51,5 +51,5 @@ var options = {
    port: 9000
    // ...
 }
-server( options );
+server.run( options );
 ```
