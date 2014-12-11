@@ -46,10 +46,14 @@ default: process.cwd()
 
 ### in module
 ```js
+// ./static-server.js
 var server = require('node-simple-static-server');
 var options = {
    port: 9000
    // ...
 }
 server.run( options );
+```
+```shell
+$ node ./static-server.js --port=9000 --cwd=/home/user/www/project/static/
 ```
