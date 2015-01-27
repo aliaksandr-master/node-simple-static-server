@@ -11,8 +11,8 @@
 	"license": "MIT",
 	"readmeFilename": "README.md",
 	"dependencies": {
-		"node-static": "latest",
-		"optimist": "latest",
-		"colors": "latest"
+		"node-static": "~0.7.6",
+		"optimist": "~0.6.1",
+		"colors": "~1.0.3"
 	}
 }
