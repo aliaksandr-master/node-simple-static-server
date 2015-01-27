@@ -1,18 +1,18 @@
 {
-	"name": "node-simple-static-server",
-	"version": "1.0.4",
-	"description": "Simple static server",
-	"main": "simple-static-server.js",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/aliaksandr-pasynkau/node-simple-static-server.git"
-	},
-	"author": "Aliaksandr Pasynkau",
-	"license": "MIT",
-	"readmeFilename": "README.md",
-	"dependencies": {
-		"node-static": "~0.7.6",
-		"optimist": "~0.6.1",
-		"colors": "~1.0.3"
-	}
+  "name": "node-simple-static-server",
+  "version": "1.0.5",
+  "description": "Simple static server",
+  "main": "simple-static-server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aliaksandr-pasynkau/node-simple-static-server.git"
+  },
+  "author": "Aliaksandr Pasynkau",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "node-static": "~0.7.6",
+    "optimist": "~0.6.1",
+    "colors": "~1.0.3"
+  }
 }
