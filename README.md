@@ -3,10 +3,9 @@
 
 Simple Static Server
 
-for install
-
-```
-    node install node-simple-static-server
+for install you need to run this command:
+```shell
+$ npm install node-simple-static-server
 ```
 
 
