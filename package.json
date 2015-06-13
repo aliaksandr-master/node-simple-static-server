@@ -2,7 +2,7 @@
   "name": "node-simple-static-server",
   "version": "1.0.5",
   "description": "Simple static server",
-  "main": "simple-static-server.js",
+  "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/aliaksandr-pasynkau/node-simple-static-server.git"
