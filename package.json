@@ -1,6 +1,6 @@
 {
   "name": "node-simple-static-server",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Simple static server",
   "main": "lib/index.js",
   "repository": {
