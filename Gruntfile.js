@@ -1,7 +1,6 @@
 'use strict';
 
 module.exports = require('grunto')(function (grunt) {
-
 	grunt.registerTask('test', [
 		'eslint:lib',
 		'eslint:other',
@@ -26,4 +25,4 @@ module.exports = require('grunto')(function (grunt) {
 			]
 		}
 	};
-}); 
+});
