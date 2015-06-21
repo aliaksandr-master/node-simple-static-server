@@ -1,6 +1,6 @@
 {
   "name": "node-simple-static-server",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "Simple static server",
   "homepage": "https://github.com/aliaksandr-pasynkau/node-simple-static-server",
   "main": "lib/index.js",
